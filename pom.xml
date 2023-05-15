@@ -43,6 +43,24 @@
 						<workers>${workers}</workers>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
+					<sharedLibraries>
+						<sharedLibrary>
+							<groupId>mysql</groupId>
+							<artifactId>mysql-connector-java</artifactId>
+						</sharedLibrary>
+						<sharedLibrary>
+							<groupId>com.ibeetl</groupId>
+							<artifactId>postgres</artifactId>
+						</sharedLibrary>
+						<sharedLibrary>
+							<groupId>org.postgresql</groupId>
+							<artifactId>postgresql</artifactId>
+						</sharedLibrary>
+						<sharedLibrary>
+							<groupId>net.snowflake</groupId>
+							<artifactId>snowflake-jdbc</artifactId>
+						</sharedLibrary>
+					</sharedLibraries>
 				</configuration>
 			</plugin>
 		</plugins>
